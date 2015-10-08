@@ -14,7 +14,7 @@ Once you have `npm`:
 
 This will install `firebase-config` globally so that it may be run from the command line.
 
-## Configuring with package.json
+## Configuring with package.json:
 
 `firebase-config` uses a special `firebase-config` field in the `package.json` to resolve locations of firebase config files.
 For example,
@@ -24,7 +24,7 @@ For example,
   "output": "public/",
   "configs": {
     "development": "config/firebase-dev.json",
-    "production": "config/firebase-dev.json"
+    "production": "config/firebase-prod.json"
   }
 }
 ```
@@ -32,7 +32,7 @@ For example,
 You can use the `"output"` field to tell `firebase-config` where to place the generated `firebase.json` file. This defaults to the directory containing package.json
 The `"configs"` field is a map of values of NODE_ENV to the firebase config files to use for each environment.
 
-## Usage
+## Usage:
 Set NODE_ENV
 + linux & mac: export NODE_ENV=production
 + windows: set NODE_ENV=production
