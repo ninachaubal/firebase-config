@@ -2,7 +2,10 @@
   "name": "firebase-config",
   "version": "0.0.1",
   "description": "Utility for working with firebase configs in different environments",
-  "repository": "https://github.com/ninachaubal/cupcakehelpline",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninachaubal/firebase-config"
+  },
   "bin": {
    "firebase-config": "main.js"
   },
