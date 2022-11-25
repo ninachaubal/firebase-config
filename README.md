@@ -1,3 +1,7 @@
+![npm](https://img.shields.io/npm/v/firebase-config?style=for-the-badge)
+![npm](https://img.shields.io/npm/dw/firebase-config?style=for-the-badge)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ninachaubal)
+
 # firebase-config: a command-line utility for working with firebase config files.
 
 `firebase-config` is a utility that lets you manage different firebase config files for different environments. It uses the value of `process.env.NODE_ENV` to determine the appropriate firebase config file for that enviromnent and creates a `firebase.json` file that is a symlink to the firebase config file for that environment.
